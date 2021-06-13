@@ -1,0 +1,40 @@
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+nav {
+  float: right;
+  text-align: right;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 4rem !important;
+  margin-right: 2rem !important;
+  margin-left: 2rem !important;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+}
+
+p,
+h3 {
+  margin: 0rem;
+  margin-bottom: 0.2rem;
+}
+strong {
+  font-weight: 500;
+}
+
+.outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
